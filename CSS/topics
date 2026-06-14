@@ -40,3 +40,11 @@ agar font size change kiya to uske response  kiya to uske response mein em ki va
 
 
 and ye px ki same jese fix rah ga on changing screen size 
+
+6- maxwidth /maxheight -- ye limit set kar deta h width or height ki e s  a gay  ni.
+
+
+--------------------------------------------------FONT FAMILY---------------------------------------------------------- 
+7- line-height -- is used to provide gap b/w the line
+8- text-align--right /left  or justify(do not leave space ) aligne the text 
+

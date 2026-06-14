@@ -6,6 +6,7 @@
 }
 
 html,body{
+    font-size: 10px;
     width:100%;
     height:100%;
 } 
@@ -33,6 +34,7 @@ html,body{
 } 
 
 #child{
+
     width:50%;
     height:50%;
     background-color:yellow;
@@ -56,4 +58,47 @@ html,body{
     width:1em;
     height:1em;
     background-color:yellow;
+}
+
+/*if we use rem in plaace of em then it take font-size from root (html )font Size 
+*/
+#test2{
+     font-size: 30px;
+     width:1em;
+     height:1em;
+     background-color: orange;
+}
+#child2{
+    font-size: 45px;
+    width: 1rem;   /* it take from html fontsize that is 70px*/
+    height:1rem;
+    background-color: purple;
+}
+.hello{
+    width:800px;
+    height:600px;
+    max-width:600px;
+    max-height:400px;
+    background-color: aqua;
+}
+/* ye lega sirf width lega 600 ya 600 s kam 
+or height  400 ya 400 s kam
+
+same as min-width/min-height
+
+*/
+
+h1{  font-size:50px;
+    line-height:80px;
+    text-align :left;
+}
+
+#box{  
+    font-size: 30px;
+    padding:30px 5px;
+    border: 3px solid black;
+    border-radius:50%;/* for sligtly changes in edges use px*/
+    width:300px;
+    height:300px;
+    background-color: red;
 }
