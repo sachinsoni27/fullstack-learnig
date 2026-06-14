@@ -6,6 +6,7 @@
 }
 
 html,body{
+    font-size: 10px;
     width:100%;
     height:100%;
 } 
@@ -18,19 +19,13 @@ html,body{
 }
 
 #test{
-    /*width:200px;
-    height:200px;
-    background-color:blue;
-    */
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
 
-     /* width:50%;
-    height:50%;
-    background-color:yellow;
-    */
-    width:40vw;
-    height:10vh;
-    background-color:blue;
-} 
+     /* width:50%;*/
+}
 
 #child{
     width:50%;
@@ -57,3 +52,113 @@ html,body{
     height:1em;
     background-color:yellow;
 }
+
+/*if we use rem in plaace of em then it take font-size from root (html )font Size 
+*/
+#test2{
+     font-size: 30px;
+     width:1em;
+     height:1em;
+     background-color: orange;
+}
+#child2{
+    font-size: 45px;
+    width: 1rem;   /* it take from html fontsize that is 70px*/
+    height:1rem;
+    background-color: purple;
+}
+.hello{
+    width:800px;
+    height:600px;
+    max-width:600px;
+    max-height:400px;
+    background-color: aqua;
+}
+/* ye lega sirf width lega 600 ya 600 s kam 
+or height  400 ya 400 s kam
+
+same as min-width/min-height
+
+*/
+
+h1{  font-size:50px;
+    line-height:80px;
+    text-align :left;
+}
+
+#box{  
+    font-size: 30px;
+    padding:30px 5px;
+    border: 3px solid black;
+    border-radius:50%;/* for sligtly changes in edges use px*/
+    width:300px;
+    height:300px;
+    background-color: red;
+}
+
+
+
+
+p{
+    /* display: inline; */
+    display: inline-block;
+    width:30px; 
+    height:30px;
+
+    /* inline kar n par jo hello and world uper niche are rah te ku ki phle bo block tha  par inline 
+    karne par side by side a gaye ga par eidth and height m koyi farak ni padega 
+    linken inline-block use karne par width and height bhi change kar sak te h or side by side rakh sak te ho hello world */
+}
+
+#car1{ 
+   /* position: absolute;       ye level one tak upper jaye ga */
+    width:200px;
+    height:100px;
+    background-color: brown;
+
+}
+
+#car2{  position: absolute; /* ye level 2 tak gaye ga*/
+    width:300px;
+    height:45px;
+    background-color: rgb(14, 175, 250);
+
+}
+
+#car3{  /*position: absolute;     ye level 3 */
+    width:100px;
+    height:400px;
+    background-color: rgb(231, 127, 8);
+
+}
+
+ 
+
+#box1{ 
+    position:relative;
+    width:300px;
+height:100px;
+background-color:blue;
+} 
+
+#cube { position:absolute;
+    left:40%;
+width:100px;
+height:20px;
+background-color: rgb(250, 1, 196);
+background: url(https://thumbs.dreamstime.com/b/beautiful-summer-spring-meadow-blue-flowers-forget-me-nots-two-flying-butterflies-wild-nature-landscape-beautiful-182636005.jpg?w=992);
+background-color: cover; /*puri photo ajaye gi jitna photo ka size hoga*/
+
+}
+
+/* absolute s upper uth jata h 
+
+relavtive s  kis surface k respect p
+
+
+agar relative ka use ni kare gay too bo screen k respect upper uthkar move  kare ga left:40% 
+
+position: fixed ;  --- jis par lagay ga bo fix ho jae ga 
+
+
+*/
