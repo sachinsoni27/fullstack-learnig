@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width:100%;
+    height:100%;
+} 
+/* bolierplate of css */
+
+.main{
+    width:300px;
+    height:300px;
+    background-color: red;
+}
+
+#test{
+    /*width:200px;
+    height:200px;
+    background-color:blue;
+    */
+
+     /* width:50%;
+    height:50%;
+    background-color:yellow;
+    */
+    width:40vw;
+    height:10vh;
+    background-color:blue;
+} 
+
+#child{
+    width:50%;
+    height:50%;
+    background-color:yellow;
+}
+/*it take from the parent (test bala)  us ka 50% -50%v liya h or test bale n screen ka liya h
+
+*/
+
+
+
+#test1{
+    font-size: 60px;
+    width:1em;
+    height:2em;
+    background-color:green;
+}
+#child1{
+    font-size: 30px; /*it take from the parent (test1 bala)  us ka 50% -50%v liya h or test1 bale n screen ka liya h*
+          es k 30 px s koyi farak ni padega 
+    */
+    width:1em;
+    height:1em;
+    background-color:yellow;
+}

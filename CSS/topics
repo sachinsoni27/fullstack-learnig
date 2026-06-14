@@ -1,0 +1,42 @@
+1- width and height 
+* for box creation we use "div"
+jaha bhi ek se jaada elements dikhe waha div hai 
+-- jha bhi rectangular  dikhe waha bhi div hai
+
+
+2- in css file  if you want to color div 
+simply write div{}
+but i it div contain ID then 
+in css we write #ID{
+
+} jo bhi id likha ho
+
+if div contain class="c"
+then  .c{}  write in that way
+
+
+  3-color and back-ground color
+
+ 4-  units -  px % vw
+ max-width and max-height 
+
+ px- we shoud avoid to use in coding because it depenf on screen quality in place of that we use "vw"
+ px - does not change with if we change screen size 
+ % - jitna total hai uska hisa 
+    Ex- 70% w  - it mean total width  ka 70%
+
+    note - it change with if the screen size change 
+    note - % and vw/vhare not same , % take from parent where as the vw/vh take from screen 
+
+5- em-- depend karta hai us element ke font size par 
+
+
+em depend karta hai us element k font size par ,aur ye agar parent ko dete hai to children par bhi appy hota hai 
+
+
+matlab kuch aisa :
+consider kariye ek element hai jiska pass 16px font size hai to 1 em  ki value 16px hogi aur 
+agar font size change kiya to uske response  kiya to uske response mein em ki value bhi badhegi
+
+
+and ye px ki same jese fix rah ga on changing screen size 
